@@ -21,5 +21,5 @@
 ;;; 2 space indent.
 (setq-default tab-width 2)
 
-;;; Use tabs (which are converted to 2 spaces) when indenting.
-(setq indent-line-function 'insert-tab)
+;;; Set default indent for JavaScript mode.
+(setq js-indent-level 2)
