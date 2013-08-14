@@ -11,3 +11,15 @@
 (add-hook 'ruby-mode-hook
           (lambda ()
             (set-fill-column 120)))
+
+;;; Suppress backup files.
+(setq make-backup-files nil)
+
+;;; Only spaces, no tabs.
+(setq-default indent-tabs-mode nil)
+
+;;; 2 space indent.
+(setq-default tab-width 2)
+
+;;; Use tabs (which are converted to 2 spaces) when indenting.
+(setq indent-line-function 'insert-tab)
