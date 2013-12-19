@@ -10,7 +10,7 @@
 ;;; Set fill-column by mode.
 (add-hook 'ruby-mode-hook
           (lambda ()
-            (set-fill-column 120)))
+            (set-fill-column 80)))
 
 ;;; Suppress backup files.
 (setq make-backup-files nil)
